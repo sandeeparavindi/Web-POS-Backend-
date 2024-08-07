@@ -6,3 +6,5 @@ create table customer(
     address varchar(100),
     mobile varchar(20)
 );
+
+drop table customer;

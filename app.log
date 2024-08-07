@@ -6,3 +6,216 @@
 11:20:45.009 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
 11:21:09.374 [http-nio-8080-exec-7] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
 11:21:09.405 [http-nio-8080-exec-7] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+11:39:24.544 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+11:39:25.013 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+11:39:46.741 [http-nio-8080-exec-8] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+11:39:46.799 [http-nio-8080-exec-8] ERROR c.e.flowers.controller.Customer - Connection failed
+11:40:49.093 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+11:40:49.550 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+11:41:11.950 [http-nio-8080-exec-8] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+11:41:12.021 [http-nio-8080-exec-8] ERROR c.e.flowers.controller.Customer - Connection failed
+11:43:36.854 [RMI TCP Connection(4)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+11:43:37.238 [RMI TCP Connection(4)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+11:44:07.998 [http-nio-8080-exec-7] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+11:44:08.064 [http-nio-8080-exec-7] ERROR c.e.flowers.controller.Customer - Connection failed
+11:45:59.655 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+11:46:00.083 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+11:46:32.092 [http-nio-8080-exec-8] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+11:46:32.146 [http-nio-8080-exec-8] ERROR c.e.flowers.controller.Customer - Connection failed
+11:54:08.750 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+11:54:09.399 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+11:54:15.282 [http-nio-8080-exec-5] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+11:54:15.314 [http-nio-8080-exec-5] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+11:54:32.804 [http-nio-8080-exec-9] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+11:54:32.821 [http-nio-8080-exec-9] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+11:55:17.204 [http-nio-8080-exec-3] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+11:55:17.228 [http-nio-8080-exec-3] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+12:51:27.536 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+12:51:28.267 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+12:51:58.579 [http-nio-8080-exec-8] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+12:51:58.679 [http-nio-8080-exec-8] ERROR c.e.flowers.controller.Customer - Connection failed
+12:52:07.548 [http-nio-8080-exec-10] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+12:52:07.565 [http-nio-8080-exec-10] ERROR c.e.flowers.controller.Customer - Connection failed
+12:52:59.875 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+12:53:00.602 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+12:53:31.596 [http-nio-8080-exec-7] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+12:53:31.659 [http-nio-8080-exec-7] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+12:55:07.186 [http-nio-8080-exec-4] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+12:55:07.200 [http-nio-8080-exec-4] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+13:22:41.464 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+13:22:42.339 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+13:23:20.341 [http-nio-8080-exec-8] ERROR c.e.flowers.controller.Customer - Error fetching customers
+javax.naming.NameNotFoundException: Name [YourDB] is not bound in this Context. Unable to find [YourDB].
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:520)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:148)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:530)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:148)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:530)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:148)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:530)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:155)
+	at org.apache.naming.SelectorContext.lookup(SelectorContext.java:144)
+	at java.naming/javax.naming.InitialContext.lookup(InitialContext.java:409)
+	at com.example.flowers.controller.Customer.doGet(Customer.java:74)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.Security.doFilter(Security.java:17)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.CORSFilter.doFilter(CORSFilter.java:24)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.CORSFilter.doFilter(CORSFilter.java:24)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.Security.doFilter(Security.java:17)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+13:23:53.500 [http-nio-8080-exec-10] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+13:23:53.604 [http-nio-8080-exec-10] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+13:23:53.620 [http-nio-8080-exec-2] ERROR c.e.flowers.controller.Customer - Error fetching customers
+javax.naming.NameNotFoundException: Name [YourDB] is not bound in this Context. Unable to find [YourDB].
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:520)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:148)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:530)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:148)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:530)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:148)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:530)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:155)
+	at org.apache.naming.SelectorContext.lookup(SelectorContext.java:144)
+	at java.naming/javax.naming.InitialContext.lookup(InitialContext.java:409)
+	at com.example.flowers.controller.Customer.doGet(Customer.java:74)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.Security.doFilter(Security.java:17)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.CORSFilter.doFilter(CORSFilter.java:24)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.CORSFilter.doFilter(CORSFilter.java:24)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.Security.doFilter(Security.java:17)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+13:24:23.175 [http-nio-8080-exec-4] ERROR c.e.flowers.controller.Customer - Error fetching customers
+javax.naming.NameNotFoundException: Name [YourDB] is not bound in this Context. Unable to find [YourDB].
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:520)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:148)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:530)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:148)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:530)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:148)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:530)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:155)
+	at org.apache.naming.SelectorContext.lookup(SelectorContext.java:144)
+	at java.naming/javax.naming.InitialContext.lookup(InitialContext.java:409)
+	at com.example.flowers.controller.Customer.doGet(Customer.java:74)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.Security.doFilter(Security.java:17)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.CORSFilter.doFilter(CORSFilter.java:24)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.CORSFilter.doFilter(CORSFilter.java:24)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.Security.doFilter(Security.java:17)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+13:26:36.428 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+13:26:37.263 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+13:27:02.747 [http-nio-8080-exec-7] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+13:27:02.810 [http-nio-8080-exec-7] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+13:29:11.594 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+13:29:12.300 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+13:29:30.284 [http-nio-8080-exec-6] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+13:29:30.352 [http-nio-8080-exec-6] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+13:39:11.533 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+13:39:12.201 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+13:40:02.869 [http-nio-8080-exec-5] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+13:40:02.904 [http-nio-8080-exec-5] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+13:42:04.435 [http-nio-8080-exec-7] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+13:42:04.439 [http-nio-8080-exec-7] INFO  c.e.flowers.controller.Customer - Customer saved successfully

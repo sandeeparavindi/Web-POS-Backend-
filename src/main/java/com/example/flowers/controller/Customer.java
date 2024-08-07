@@ -1,6 +1,7 @@
 package com.example.flowers.controller;
 
 import com.example.flowers.bo.CustomerBOIMPL;
+import com.example.flowers.dao.CustomerDAOIMPL;
 import com.example.flowers.dto.CustomerDTO;
 import com.example.flowers.util.Util;
 import jakarta.json.bind.Jsonb;
@@ -17,8 +18,10 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.List;
 
 @WebServlet(urlPatterns = "/customer", loadOnStartup = 4)
 public class Customer extends HttpServlet {
@@ -65,7 +68,18 @@ public class Customer extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+        try (PrintWriter writer = resp.getWriter()) {
+            Jsonb jsonb = JsonbBuilder.create();
+            var customerDAOImpl = new CustomerDAOIMPL();
+            List<CustomerDTO> customers = customerDAOImpl.getAllCustomers(connection); // Add this method to retrieve all customers
+            String json = jsonb.toJson(customers);
+            writer.write(json);
+            resp.setContentType("application/json");
+            resp.setStatus(HttpServletResponse.SC_OK);
+        } catch (Exception e) {
+            resp.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
+            e.printStackTrace();
+        }
     }
 
     @Override
