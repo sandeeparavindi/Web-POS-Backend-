@@ -13,21 +13,19 @@ public class CustomerBOIMPL implements CustomerBO{
         return studentDAOIMPL.saveCustomer(customer, connection);
     }
 
+
     @Override
     public boolean deleteCustomer(String id, Connection connection) throws Exception {
-        return false;
+        var customerDAOImpl = new CustomerDAOIMPL();
+        return customerDAOImpl.deleteCustomer(id,connection);
     }
 
-//    @Override
-//    public boolean updateCustomer(String id, CustomerDTO customer, Connection connection) throws Exception {
-//        var customerDAOIMPL = new CustomerDAOIMPL();
-//        return customerDAOIMPL.updateCustomer(id, customer, connection);
-//    }
-@Override
-public boolean updateCustomer(String id, CustomerDTO customer, Connection connection) throws Exception {
-    var customerDAOImpl = new CustomerDAOIMPL();
-    return customerDAOImpl.updateCustomer(id, customer, connection);
-}
+
+    @Override
+    public boolean updateCustomer(String id, CustomerDTO customer, Connection connection) throws Exception {
+        var customerDAOImpl = new CustomerDAOIMPL();
+        return customerDAOImpl.updateCustomer(id, customer, connection);
+    }
 
     @Override
     public CustomerDTO getCustomer(String id, Connection connection) throws Exception {

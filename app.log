@@ -279,3 +279,7 @@ javax.naming.NameNotFoundException: Name [YourDB] is not bound in this Context. 
 21:56:38.049 [http-nio-8080-exec-1] INFO  c.e.flowers.controller.Customer - Customer saved successfully
 22:22:15.141 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
 22:22:16.267 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+22:40:04.659 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+22:40:05.402 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+22:42:51.717 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+22:42:52.468 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
