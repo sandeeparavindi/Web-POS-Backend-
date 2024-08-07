@@ -71,7 +71,7 @@ public class Customer extends HttpServlet {
         try (PrintWriter writer = resp.getWriter()) {
             Jsonb jsonb = JsonbBuilder.create();
             var customerDAOImpl = new CustomerDAOIMPL();
-            List<CustomerDTO> customers = customerDAOImpl.getAllCustomers(connection); // Add this method to retrieve all customers
+            List<CustomerDTO> customers = customerDAOImpl.getAllCustomers(connection);
             String json = jsonb.toJson(customers);
             writer.write(json);
             resp.setContentType("application/json");
@@ -82,9 +82,86 @@ public class Customer extends HttpServlet {
         }
     }
 
-    @Override
-    protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//    @Override
+//    protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        if(req.getContentType() == null || !req.getContentType().toLowerCase().startsWith("application/json")) {
+//            resp.sendError(HttpServletResponse.SC_BAD_REQUEST);
+//            logger.error("Request not matched with the criteria");
+//            return;
+//        }
+//        try (var writer = resp.getWriter()) {
+//            Jsonb jsonb = JsonbBuilder.create();
+//            var customerBOIMPL = new CustomerBOIMPL();
+//            CustomerDTO customer = jsonb.fromJson(req.getReader(), CustomerDTO.class);
+//            String id = req.getParameter("id");
+//            if(customerBOIMPL.updateCustomer(id, customer, connection)) {
+//                writer.write("Customer updated successfully");
+//                resp.setStatus(HttpServletResponse.SC_OK);
+//            } else {
+//                resp.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
+//            }
+//        } catch (Exception e) {
+//            logger.error("Update failed");
+//            resp.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
+//            e.printStackTrace();
+//        }
+//    }
+
+//    @Override
+//    protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        try (var writer = resp.getWriter()) {
+//            var studentBOIMPL = new CustomerBOIMPL();
+//
+//            // Extract customer ID from the path
+//            String pathInfo = req.getPathInfo();
+//            String customerId = pathInfo != null ? pathInfo.substring(1) : null; // Remove leading '/'
+//
+//            if (customerId == null) {
+//                writer.write("Customer ID is missing");
+//                resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+//                return;
+//            }
+//
+//            Jsonb jsonb = JsonbBuilder.create();
+//            CustomerDTO customer = jsonb.fromJson(req.getReader(), CustomerDTO.class);
+//
+//            if (studentBOIMPL.updateCustomer(customerId, customer, connection)) {
+//                resp.setStatus(HttpServletResponse.SC_NO_CONTENT);
+//            } else {
+//                writer.write("Update failed");
+//                resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+//            }
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
+@Override
+protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    if (req.getContentType() == null || !req.getContentType().toLowerCase().startsWith("application/json")) {
+        resp.sendError(HttpServletResponse.SC_BAD_REQUEST);
+        logger.error("Request not matched with the criteria");
+        return;
     }
+
+    try (var writer = resp.getWriter()) {
+        Jsonb jsonb = JsonbBuilder.create();
+        var customerBOIMPL = new CustomerBOIMPL();
+        CustomerDTO customer = jsonb.fromJson(req.getReader(), CustomerDTO.class);
+        String customerId = req.getParameter("id");
+
+        boolean result = customerBOIMPL.updateCustomer(customerId, customer, connection);
+        if (result) {
+            writer.write("Customer updated successfully");
+            resp.setStatus(HttpServletResponse.SC_OK);
+        } else {
+            resp.sendError(HttpServletResponse.SC_NOT_FOUND, "Customer not found");
+        }
+    } catch (Exception e) {
+        logger.error("Update failed", e);
+        resp.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
+    }
+}
+
 
     @Override
     protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

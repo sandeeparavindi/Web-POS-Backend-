@@ -11,7 +11,7 @@ import java.util.List;
 
 public final class CustomerDAOIMPL implements CustomerDAO {
     public static String SAVE_CUSTOMER = "INSERT INTO customer (id,name,address,mobile) VALUES(?,?,?,?)";
-    public static final String GET_CUSTOMERS = "SELECT * FROM customer";
+
 
     @Override
     public String saveCustomer(CustomerDTO customer, Connection connection) throws Exception {
@@ -37,8 +37,15 @@ public final class CustomerDAOIMPL implements CustomerDAO {
     }
 
     @Override
-    public boolean updateCustomer(String id, CustomerDTO customer, Connection connection) throws Exception {
-        return false;
+    public boolean updateCustomer(String id, CustomerDTO customer, Connection connection) throws SQLException {
+        String query = "UPDATE customer SET name = ?, address = ?, mobile = ? WHERE id = ?";
+        try (PreparedStatement ps = connection.prepareStatement(query)) {
+            ps.setString(1, customer.getName());
+            ps.setString(2, customer.getAddress());
+            ps.setString(3, customer.getMobile());
+            ps.setString(4, id);
+            return ps.executeUpdate() > 0;
+        }
     }
 
     @Override
@@ -63,6 +70,5 @@ public final class CustomerDAOIMPL implements CustomerDAO {
         }
         return customers;
     }
-
 
 }
