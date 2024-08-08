@@ -53,11 +53,6 @@ public final class CustomerDAOIMPL implements CustomerDAO {
     }
 
     @Override
-    public CustomerDTO getCustomer(String id, Connection connection) throws Exception {
-        return null;
-    }
-
-    @Override
     public List<CustomerDTO> getAllCustomers(Connection connection) throws SQLException {
         List<CustomerDTO> customers = new ArrayList<>();
         String query = "SELECT * FROM customer";

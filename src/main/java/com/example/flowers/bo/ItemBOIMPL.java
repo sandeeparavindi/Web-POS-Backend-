@@ -1,4 +1,25 @@
 package com.example.flowers.bo;
 
-public class ItemBOIMPL {
+import com.example.flowers.dao.CustomerDAOIMPL;
+import com.example.flowers.dao.ItemDAOIMPL;
+import com.example.flowers.dto.ItemDTO;
+
+import java.sql.Connection;
+
+public class ItemBOIMPL implements ItemBO{
+    @Override
+    public String saveItem(ItemDTO item, Connection connection) throws Exception {
+        var itemDAOIMPL = new ItemDAOIMPL();
+        return itemDAOIMPL.saveItem(item, connection);
+    }
+
+    @Override
+    public boolean deleteItem(String code, Connection connection) throws Exception {
+        return false;
+    }
+
+    @Override
+    public boolean updateItem(String code, ItemDTO item, Connection connection) throws Exception {
+        return false;
+    }
 }

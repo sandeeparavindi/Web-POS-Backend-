@@ -329,3 +329,17 @@ javax.naming.NameNotFoundException: Name [YourDB] is not bound in this Context. 
 10:03:04.978 [http-nio-8080-exec-6] INFO  c.e.flowers.controller.Customer - Customer saved successfully
 10:10:15.947 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
 10:10:16.362 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+10:47:19.320 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+10:47:19.780 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+10:47:19.783 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+10:47:19.799 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+10:47:55.602 [http-nio-8080-exec-2] INFO  com.example.flowers.controller.Item - Invoke idGenerate()
+10:47:55.618 [http-nio-8080-exec-2] INFO  com.example.flowers.controller.Item - Customer saved successfully
+10:51:46.104 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+10:51:46.566 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+10:51:46.569 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+10:51:46.585 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+10:52:45.279 [http-nio-8080-exec-1] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+10:52:45.301 [http-nio-8080-exec-1] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+10:53:59.511 [http-nio-8080-exec-3] INFO  com.example.flowers.controller.Item - Invoke idGenerate()
+10:53:59.534 [http-nio-8080-exec-3] INFO  com.example.flowers.controller.Item - Item saved successfully

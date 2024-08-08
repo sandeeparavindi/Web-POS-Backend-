@@ -26,9 +26,4 @@ public class CustomerBOIMPL implements CustomerBO{
         var customerDAOImpl = new CustomerDAOIMPL();
         return customerDAOImpl.updateCustomer(id, customer, connection);
     }
-
-    @Override
-    public CustomerDTO getCustomer(String id, Connection connection) throws Exception {
-        return null;
-    }
 }
