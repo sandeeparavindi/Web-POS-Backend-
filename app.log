@@ -975,3 +975,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a par
 23:59:13.381 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
 23:59:50.470 [http-nio-8080-exec-4] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
 23:59:50.479 [http-nio-8080-exec-4] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+00:17:34.486 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+00:17:35.113 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+00:17:35.117 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+00:17:35.145 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized

@@ -7,7 +7,10 @@ import com.example.flowers.dto.OrderDTO;
 import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class OrderDAOIMPL implements OrderDAO {
     private final DataSource dataSource;
@@ -77,5 +80,57 @@ public class OrderDAOIMPL implements OrderDAO {
             var rs = itemQtyCheckStmt.executeQuery();
             return rs.next() ? rs.getInt(1) : -1;
         }
+    }
+    @Override
+    public List<OrderDTO> getAllOrders() throws SQLException {
+        List<OrderDTO> orders = new ArrayList<>();
+        String query = "SELECT * FROM orders";
+
+        try (Connection connection = dataSource.getConnection();
+             PreparedStatement stmt = connection.prepareStatement(query);
+             ResultSet rs = stmt.executeQuery()) {
+
+            while (rs.next()) {
+                OrderDTO order = new OrderDTO();
+                order.setOrderId(rs.getString("order_id"));
+                order.setOrderDate(rs.getString("order_date"));
+                order.setCustomerId(rs.getString("customer_id"));
+                order.setTotal(rs.getDouble("total"));
+                order.setDiscount(rs.getDouble("discount"));
+                order.setSubTotal(rs.getDouble("subtotal"));
+                order.setCash(rs.getDouble("cash"));
+                order.setBalance(rs.getDouble("balance"));
+
+                // Optionally, load items related to the order
+                order.setItems(getItemsForOrder(order.getOrderId(), connection));
+
+                orders.add(order);
+            }
+        }
+
+        return orders;
+    }
+
+    private List<ItemDTO> getItemsForOrder(String orderId, Connection connection) throws SQLException {
+        List<ItemDTO> items = new ArrayList<>();
+        String query = "SELECT oi.item_code, i.description, oi.price, oi.quantity FROM order_items oi " +
+                "JOIN items i ON oi.item_code = i.code WHERE oi.order_id = ?";
+
+        try (PreparedStatement stmt = connection.prepareStatement(query)) {
+            stmt.setString(1, orderId);
+            try (ResultSet rs = stmt.executeQuery()) {
+                while (rs.next()) {
+                    ItemDTO item = new ItemDTO();
+                    item.setCode(rs.getString("item_code"));
+                    item.setDescription(rs.getString("description"));
+                    item.setPrice((rs.getDouble("price")));
+                    item.setQty((rs.getInt("quantity")));
+
+                    items.add(item);
+                }
+            }
+        }
+
+        return items;
     }
 }
