@@ -7,4 +7,9 @@ create table customer(
     mobile varchar(20)
 );
 
-drop table customer;
+CREATE TABLE items (
+                       code VARCHAR(255) NOT NULL PRIMARY KEY,
+                       description VARCHAR(255) NOT NULL,
+                       price DOUBLE NOT NULL,
+                       qty INT NOT NULL
+);

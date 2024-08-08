@@ -283,3 +283,49 @@ javax.naming.NameNotFoundException: Name [YourDB] is not bound in this Context. 
 22:40:05.402 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
 22:42:51.717 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
 22:42:52.468 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+09:25:55.158 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+09:25:55.597 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+09:35:41.866 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+09:35:42.313 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+09:36:37.529 [http-nio-8080-exec-6] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+09:36:37.549 [http-nio-8080-exec-6] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+09:37:25.450 [http-nio-8080-exec-4] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+09:37:25.470 [http-nio-8080-exec-4] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+09:39:15.055 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+09:39:15.493 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+09:39:46.358 [http-nio-8080-exec-6] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+09:39:46.373 [http-nio-8080-exec-6] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+09:40:28.283 [http-nio-8080-exec-5] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+09:40:28.323 [http-nio-8080-exec-5] ERROR c.e.flowers.controller.Customer - Connection failed
+09:40:46.604 [http-nio-8080-exec-4] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+09:40:46.605 [http-nio-8080-exec-4] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+09:41:30.703 [http-nio-8080-exec-2] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+09:41:30.703 [http-nio-8080-exec-2] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+09:48:17.780 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+09:48:18.184 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+09:48:47.328 [http-nio-8080-exec-2] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+09:48:47.378 [http-nio-8080-exec-2] ERROR c.e.flowers.controller.Customer - Connection failed
+09:49:26.353 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+09:49:26.744 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+09:49:52.760 [http-nio-8080-exec-2] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+09:49:52.776 [http-nio-8080-exec-2] ERROR c.e.flowers.controller.Customer - Connection failed
+09:49:57.341 [http-nio-8080-exec-3] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+09:49:57.344 [http-nio-8080-exec-3] ERROR c.e.flowers.controller.Customer - Connection failed
+09:50:38.167 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+09:50:38.610 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+09:51:09.192 [http-nio-8080-exec-3] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+09:51:09.225 [http-nio-8080-exec-3] ERROR c.e.flowers.controller.Customer - Connection failed
+09:52:01.304 [http-nio-8080-exec-9] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+09:52:01.307 [http-nio-8080-exec-9] ERROR c.e.flowers.controller.Customer - Connection failed
+09:53:00.058 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+09:53:00.422 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+09:53:34.239 [http-nio-8080-exec-7] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+09:53:34.239 [http-nio-8080-exec-7] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+09:56:38.294 [http-nio-8080-exec-7] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+09:56:38.310 [http-nio-8080-exec-7] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+10:02:14.406 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+10:02:14.808 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+10:03:04.961 [http-nio-8080-exec-6] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+10:03:04.978 [http-nio-8080-exec-6] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+10:10:15.947 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+10:10:16.362 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
