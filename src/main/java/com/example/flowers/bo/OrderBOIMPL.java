@@ -1,12 +1,13 @@
 package com.example.flowers.bo;
 
-import com.example.flowers.dao.OrderDAO;
+import com.example.flowers.bo.custom.OrderBO;
+import com.example.flowers.dao.custom.OrderDAO;
 import com.example.flowers.dto.ItemDTO;
 import com.example.flowers.dto.OrderDTO;
 
 import java.sql.SQLException;
 
-public class OrderBOIMPL implements OrderBO{
+public class OrderBOIMPL implements OrderBO {
     private final OrderDAO orderDAO;
 
     public OrderBOIMPL(OrderDAO orderDAO) {

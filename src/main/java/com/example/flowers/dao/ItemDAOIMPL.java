@@ -1,6 +1,6 @@
 package com.example.flowers.dao;
 
-import com.example.flowers.dto.CustomerDTO;
+import com.example.flowers.dao.custom.ItemDAO;
 import com.example.flowers.dto.ItemDTO;
 
 import java.sql.Connection;
@@ -10,7 +10,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public final class ItemDAOIMPL implements ItemDAO {
+public  class ItemDAOIMPL implements ItemDAO {
     public static String SAVE_ITEM = "INSERT INTO items (code,description,price,qty) VALUES(?,?,?,?)";
 
     @Override

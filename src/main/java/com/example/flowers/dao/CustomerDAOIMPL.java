@@ -1,5 +1,6 @@
 package com.example.flowers.dao;
 
+import com.example.flowers.dao.custom.CustomerDAO;
 import com.example.flowers.dto.CustomerDTO;
 
 import java.sql.Connection;
@@ -9,7 +10,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public final class CustomerDAOIMPL implements CustomerDAO {
+public class CustomerDAOIMPL implements CustomerDAO {
     public static String SAVE_CUSTOMER = "INSERT INTO customer (id,name,address,mobile) VALUES(?,?,?,?)";
 
 

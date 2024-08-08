@@ -1,4 +1,4 @@
-package com.example.flowers.bo;
+package com.example.flowers.bo.custom;
 
 import com.example.flowers.dto.OrderDTO;
 

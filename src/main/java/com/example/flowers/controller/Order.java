@@ -1,10 +1,9 @@
 package com.example.flowers.controller;
 
-import com.example.flowers.bo.OrderBO;
+import com.example.flowers.bo.custom.OrderBO;
 import com.example.flowers.bo.OrderBOIMPL;
-import com.example.flowers.dao.OrderDAO;
+import com.example.flowers.dao.custom.OrderDAO;
 import com.example.flowers.dao.OrderDAOIMPL;
-import com.example.flowers.dto.ItemDTO;
 import com.example.flowers.dto.OrderDTO;
 import jakarta.json.bind.Jsonb;
 import jakarta.json.bind.JsonbBuilder;
@@ -20,8 +19,6 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 @WebServlet(urlPatterns = "/orders", loadOnStartup = 4)

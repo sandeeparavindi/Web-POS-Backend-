@@ -1,12 +1,12 @@
 package com.example.flowers.bo;
 
+import com.example.flowers.bo.custom.CustomerBO;
 import com.example.flowers.dao.CustomerDAOIMPL;
 import com.example.flowers.dto.CustomerDTO;
 
 import java.sql.Connection;
-import java.util.List;
 
-public class CustomerBOIMPL implements CustomerBO{
+public class CustomerBOIMPL implements CustomerBO {
     @Override
     public String saveCustomer(CustomerDTO customer, Connection connection) throws Exception {
         var studentDAOIMPL = new CustomerDAOIMPL();

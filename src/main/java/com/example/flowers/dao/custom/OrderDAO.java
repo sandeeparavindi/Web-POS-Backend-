@@ -1,4 +1,4 @@
-package com.example.flowers.dao;
+package com.example.flowers.dao.custom;
 
 import com.example.flowers.dto.ItemDTO;
 import com.example.flowers.dto.OrderDTO;
