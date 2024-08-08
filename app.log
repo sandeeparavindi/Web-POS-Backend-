@@ -343,3 +343,51 @@ javax.naming.NameNotFoundException: Name [YourDB] is not bound in this Context. 
 10:52:45.301 [http-nio-8080-exec-1] INFO  c.e.flowers.controller.Customer - Customer saved successfully
 10:53:59.511 [http-nio-8080-exec-3] INFO  com.example.flowers.controller.Item - Invoke idGenerate()
 10:53:59.534 [http-nio-8080-exec-3] INFO  com.example.flowers.controller.Item - Item saved successfully
+11:30:20.334 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+11:30:20.828 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+11:30:20.831 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+11:30:20.845 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+11:30:45.282 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+11:30:45.722 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+11:30:45.724 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+11:30:45.739 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+11:31:40.732 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+11:31:41.140 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+11:31:41.142 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+11:31:41.155 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+11:32:36.177 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+11:32:36.597 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+11:32:36.599 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+11:32:36.613 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+11:33:19.067 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+11:33:19.437 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+11:33:19.439 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+11:33:19.457 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+11:34:17.845 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+11:34:18.218 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+11:34:18.221 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+11:34:18.235 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+11:35:09.742 [http-nio-8080-exec-8] INFO  com.example.flowers.controller.Item - Invoke itemIDGenerate()
+11:35:09.765 [http-nio-8080-exec-8] INFO  com.example.flowers.controller.Item - Item saved successfully
+11:44:33.858 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+11:44:34.222 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+11:44:34.227 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+11:44:34.246 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+11:45:08.245 [http-nio-8080-exec-10] INFO  com.example.flowers.controller.Item - Invoke itemIDGenerate()
+11:45:08.245 [http-nio-8080-exec-10] INFO  com.example.flowers.controller.Item - Item saved successfully
+11:56:42.344 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+11:56:42.843 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+11:56:42.845 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+11:56:42.868 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+11:58:41.901 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+11:58:42.400 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+11:58:42.410 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+11:58:42.444 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+11:59:11.044 [http-nio-8080-exec-10] INFO  com.example.flowers.controller.Item - Invoke itemIDGenerate()
+11:59:11.061 [http-nio-8080-exec-10] INFO  com.example.flowers.controller.Item - Item saved successfully
+12:00:42.959 [http-nio-8080-exec-5] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+12:00:42.979 [http-nio-8080-exec-5] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+12:01:54.534 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+12:01:54.962 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+12:01:54.964 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+12:01:54.979 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized

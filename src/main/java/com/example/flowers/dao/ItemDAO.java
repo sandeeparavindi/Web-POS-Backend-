@@ -1,6 +1,5 @@
 package com.example.flowers.dao;
 
-import com.example.flowers.dto.CustomerDTO;
 import com.example.flowers.dto.ItemDTO;
 
 import java.sql.Connection;

@@ -15,11 +15,13 @@ public class ItemBOIMPL implements ItemBO{
 
     @Override
     public boolean deleteItem(String code, Connection connection) throws Exception {
-        return false;
+        var itemDAOIMPL = new ItemDAOIMPL();
+        return itemDAOIMPL.deleteItem(code,connection);
     }
 
     @Override
     public boolean updateItem(String code, ItemDTO item, Connection connection) throws Exception {
-        return false;
+        var itemDAOIMPL = new ItemDAOIMPL();
+        return itemDAOIMPL.updateItem(code, item, connection);
     }
 }

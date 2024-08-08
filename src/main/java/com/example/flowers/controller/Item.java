@@ -1,7 +1,11 @@
 package com.example.flowers.controller;
 
+import com.example.flowers.bo.CustomerBOIMPL;
 import com.example.flowers.bo.ItemBOIMPL;
 
+import com.example.flowers.dao.CustomerDAOIMPL;
+import com.example.flowers.dao.ItemDAOIMPL;
+import com.example.flowers.dto.CustomerDTO;
 import com.example.flowers.dto.ItemDTO;
 import com.example.flowers.util.Util;
 import jakarta.json.bind.Jsonb;
@@ -18,8 +22,10 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.List;
 
 @WebServlet(urlPatterns = "/item", loadOnStartup = 4)
 public class Item extends HttpServlet {
@@ -51,7 +57,7 @@ public class Item extends HttpServlet {
             Jsonb jsonb = JsonbBuilder.create();
             var itemBOIMPL = new ItemBOIMPL();
             ItemDTO item = jsonb.fromJson(req.getReader(), ItemDTO.class);
-            logger.info("Invoke idGenerate()");
+            logger.info("Invoke itemIDGenerate()");
             item.setCode(Util.itemIdGenerate());
             //Save data in the DB
             writer.write(itemBOIMPL.saveItem(item,connection));
@@ -61,6 +67,74 @@ public class Item extends HttpServlet {
             logger.error("Connection failed");
             resp.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
             e.printStackTrace();
+        }
+    }
+
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        try (PrintWriter writer = resp.getWriter()) {
+            Jsonb jsonb = JsonbBuilder.create();
+            var itemDAOIMPL = new ItemDAOIMPL();
+            List<ItemDTO> items = itemDAOIMPL.getAllItems(connection);
+            String json = jsonb.toJson(items);
+            writer.write(json);
+            resp.setContentType("application/json");
+            resp.setStatus(HttpServletResponse.SC_OK);
+        } catch (Exception e) {
+            resp.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
+            e.printStackTrace();
+        }
+    }
+
+
+    @Override
+    protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        if (req.getContentType() == null || !req.getContentType().toLowerCase().startsWith("application/json")) {
+            resp.sendError(HttpServletResponse.SC_BAD_REQUEST);
+            logger.error("Request not matched with the criteria");
+            return;
+        }
+
+        try (var writer = resp.getWriter()) {
+            Jsonb jsonb = JsonbBuilder.create();
+            var itemBOIMPL = new ItemBOIMPL();
+            ItemDTO item = jsonb.fromJson(req.getReader(), ItemDTO.class);
+            String itemId = req.getParameter("code");
+
+            boolean result = itemBOIMPL.updateItem(itemId, item, connection);
+            if (result) {
+                writer.write("Item updated successfully");
+                resp.setStatus(HttpServletResponse.SC_OK);
+            } else {
+                resp.sendError(HttpServletResponse.SC_NOT_FOUND, "Item not found");
+            }
+        } catch (Exception e) {
+            logger.error("Update failed", e);
+            resp.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
+        }
+    }
+
+
+    @Override
+    protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String itemId = req.getParameter("code");
+        if (itemId == null || itemId.isEmpty()) {
+            resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "Item code is required");
+            return;
+        }
+
+        try (var writer = resp.getWriter()) {
+            var itemBOIMPL = new ItemBOIMPL();
+            boolean result = itemBOIMPL.deleteItem(itemId, connection);
+            if (result) {
+                writer.write("Item deleted successfully");
+                resp.setStatus(HttpServletResponse.SC_OK);
+            } else {
+                resp.sendError(HttpServletResponse.SC_NOT_FOUND, "Item not found");
+            }
+        } catch (Exception e) {
+            logger.error("Delete failed", e);
+            resp.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
         }
     }
 }
