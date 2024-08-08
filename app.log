@@ -771,3 +771,19 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 21:59:25.420 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Order - Connection initialized: 851012611, URL=jdbc:mysql://localhost:3306/flower?createDatabaseIfNotExist=true, MySQL Connector/J
 22:00:03.156 [http-nio-8080-exec-4] DEBUG com.example.flowers.controller.Order - Received order: OrderDTO(orderId=ORD-206872, orderDate=2024-08-08, customerId=5fa109aa-8d72-43d3-84a8-e38e1a8644ef, total=1000.0, discount=10.0, subTotal=900.0, cash=1000.0, balance=100.0, items=[ItemDTO(code=062af99b-8664-49b5-b8f9-7be16685313c, description=Pink rose, price=500.0, qty=2)])
 22:01:37.646 [http-nio-8080-exec-7] DEBUG com.example.flowers.controller.Order - Received order: OrderDTO(orderId=ORD-445819, orderDate=2024-08-08, customerId=5fa109aa-8d72-43d3-84a8-e38e1a8644ef, total=900.0, discount=2.0, subTotal=882.0, cash=1000.0, balance=118.0, items=[ItemDTO(code=7935545e-c44c-42ab-8872-9b018c0b6565, description=Yellow Rose, price=450.0, qty=2)])
+22:07:31.672 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+22:07:32.405 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+22:07:32.408 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+22:07:32.436 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+22:07:32.437 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Order - Init method invoked
+22:07:32.462 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Order - Connection initialized: 1169979788, URL=jdbc:mysql://localhost:3306/flower?createDatabaseIfNotExist=true, MySQL Connector/J
+22:07:35.802 [http-nio-8080-exec-6] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+22:07:35.821 [http-nio-8080-exec-6] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+22:54:48.585 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+22:54:49.365 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+22:54:49.369 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+22:54:49.391 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+22:55:16.124 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+22:55:16.777 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+22:55:16.780 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+22:55:16.813 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
