@@ -391,3 +391,383 @@ javax.naming.NameNotFoundException: Name [YourDB] is not bound in this Context. 
 12:01:54.962 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
 12:01:54.964 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
 12:01:54.979 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+16:56:16.855 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+16:56:17.292 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+16:56:17.294 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+16:56:17.311 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+16:57:48.036 [http-nio-8080-exec-10] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+16:57:48.045 [http-nio-8080-exec-10] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+17:02:38.159 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+17:02:38.505 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+17:02:38.507 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+17:02:38.523 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+17:04:43.273 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+17:04:43.628 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+17:04:43.631 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+17:04:43.646 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+17:07:45.643 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+17:07:46.048 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+17:07:46.051 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+17:07:46.067 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+19:02:43.218 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+19:02:43.671 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+19:02:43.673 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+19:02:43.693 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+19:09:45.730 [http-nio-8080-exec-1] INFO  com.example.flowers.controller.Order - Init method invoked
+19:09:45.782 [http-nio-8080-exec-1] DEBUG com.example.flowers.controller.Order - Connection initialized: 1822849815, URL=jdbc:mysql://localhost:3306/flower?createDatabaseIfNotExist=true, MySQL Connector/J
+19:15:31.812 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+19:15:32.265 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+19:15:32.267 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+19:15:32.282 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+19:15:56.378 [http-nio-8080-exec-3] INFO  com.example.flowers.controller.Order - Init method invoked
+19:15:56.399 [http-nio-8080-exec-3] DEBUG com.example.flowers.controller.Order - Connection initialized: 335235555, URL=jdbc:mysql://localhost:3306/flower?createDatabaseIfNotExist=true, MySQL Connector/J
+19:26:53.860 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+19:26:54.206 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+19:26:54.209 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+19:26:54.225 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+19:27:33.463 [http-nio-8080-exec-2] INFO  com.example.flowers.controller.Order - Init method invoked
+19:27:33.488 [http-nio-8080-exec-2] DEBUG com.example.flowers.controller.Order - Connection initialized: 190292799, URL=jdbc:mysql://localhost:3306/flower?createDatabaseIfNotExist=true, MySQL Connector/J
+19:39:21.916 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+19:39:22.272 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+19:39:22.274 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+19:39:22.289 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+19:39:58.815 [http-nio-8080-exec-8] INFO  com.example.flowers.controller.Order - Init method invoked
+19:39:58.823 [http-nio-8080-exec-8] DEBUG com.example.flowers.controller.Order - Connection initialized: 1036781581, URL=jdbc:mysql://localhost:3306/flower?createDatabaseIfNotExist=true, MySQL Connector/J
+19:44:22.479 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+19:44:22.823 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+19:44:22.826 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+19:44:22.842 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+19:44:48.701 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+19:44:49.054 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+19:44:49.057 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+19:44:49.080 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+19:44:49.081 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Order - Init method invoked
+19:44:49.102 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Order - Connection initialized: 1752955455, URL=jdbc:mysql://localhost:3306/flower?createDatabaseIfNotExist=true, MySQL Connector/J
+19:52:54.172 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+19:52:54.598 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+19:52:54.600 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+19:52:54.616 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+19:52:54.616 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Order - Init method invoked
+19:52:54.628 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Order - Connection initialized: 1811602736, URL=jdbc:mysql://localhost:3306/flower?createDatabaseIfNotExist=true, MySQL Connector/J
+19:54:15.906 [http-nio-8080-exec-2] INFO  c.e.flowers.controller.Customer - Invoke idGenerate()
+19:54:15.922 [http-nio-8080-exec-2] INFO  c.e.flowers.controller.Customer - Customer saved successfully
+19:54:40.589 [http-nio-8080-exec-5] INFO  com.example.flowers.controller.Item - Invoke itemIDGenerate()
+19:54:40.589 [http-nio-8080-exec-5] INFO  com.example.flowers.controller.Item - Item saved successfully
+19:55:13.814 [http-nio-8080-exec-5] INFO  com.example.flowers.controller.Order - Processing POST request
+19:55:13.821 [http-nio-8080-exec-5] INFO  com.example.flowers.controller.Order - Order data parsed successfully: OrderDTO(orderId=ORD-317737, orderDate=2024-08-08, customerId=5fa109aa-8d72-43d3-84a8-e38e1a8644ef, total=1000.0, discount=10.0, subTotal=900.0, cash=1000.0, balance=100.0, items=[ItemDTO(code=062af99b-8664-49b5-b8f9-7be16685313c, description=Pink rose, price=500.0, qty=2)])
+19:55:13.842 [http-nio-8080-exec-5] INFO  com.example.flowers.controller.Order - Order details: OrderId=ORD-317737, OrderDate=2024-08-08, CustomerId=5fa109aa-8d72-43d3-84a8-e38e1a8644ef, Total=1000.0, Discount=10.0, SubTotal=900.0, Cash=1000.0, Balance=100.0, Items=[ItemDTO(code=062af99b-8664-49b5-b8f9-7be16685313c, description=Pink rose, price=500.0, qty=2)]
+19:55:13.855 [http-nio-8080-exec-5] ERROR com.example.flowers.controller.Order - Database operation failed
+com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'customer_id' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:137)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:137)
+	at com.example.flowers.controller.Order.doPost(Order.java:185)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.Security.doFilter(Security.java:17)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.CORSFilter.doFilter(CORSFilter.java:24)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.CORSFilter.doFilter(CORSFilter.java:24)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.Security.doFilter(Security.java:17)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+20:45:34.240 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+20:45:35.051 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+20:45:35.056 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+20:45:35.093 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+20:45:35.096 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Order - Init method invoked
+20:45:35.127 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Order - Connection initialized: 2089164501, URL=jdbc:mysql://localhost:3306/flower?createDatabaseIfNotExist=true, MySQL Connector/J
+20:52:29.136 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+20:52:29.811 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+20:52:29.814 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+20:52:29.848 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+20:52:29.849 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Order - Init method invoked
+20:52:29.873 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Order - Connection initialized: 1111327083, URL=jdbc:mysql://localhost:3306/flower?createDatabaseIfNotExist=true, MySQL Connector/J
+20:53:00.341 [http-nio-8080-exec-6] DEBUG com.example.flowers.controller.Order - Received order: OrderDTO(orderId=ORD-224167, orderDate=2024-08-08, customerId=5fa109aa-8d72-43d3-84a8-e38e1a8644ef, total=1000.0, discount=10.0, subTotal=900.0, cash=1000.0, balance=100.0, items=[ItemDTO(code=062af99b-8664-49b5-b8f9-7be16685313c, description=Pink rose, price=500.0, qty=2)])
+20:53:00.418 [http-nio-8080-exec-6] ERROR com.example.flowers.controller.Order - Failed to place order
+com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'customer_id' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:137)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:137)
+	at com.example.flowers.controller.Order.doPost(Order.java:190)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.Security.doFilter(Security.java:17)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.CORSFilter.doFilter(CORSFilter.java:24)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.CORSFilter.doFilter(CORSFilter.java:24)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.Security.doFilter(Security.java:17)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+20:56:32.972 [http-nio-8080-exec-6] DEBUG com.example.flowers.controller.Order - Received order: OrderDTO(orderId=ORD-224167, orderDate=2024-08-08, customerId=5fa109aa-8d72-43d3-84a8-e38e1a8644ef, total=1000.0, discount=10.0, subTotal=900.0, cash=1000.0, balance=100.0, items=[ItemDTO(code=062af99b-8664-49b5-b8f9-7be16685313c, description=Pink rose, price=500.0, qty=2)])
+20:56:32.983 [http-nio-8080-exec-6] ERROR com.example.flowers.controller.Order - Failed to place order
+com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'customer_id' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:137)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:137)
+	at com.example.flowers.controller.Order.doPost(Order.java:190)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.Security.doFilter(Security.java:17)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.CORSFilter.doFilter(CORSFilter.java:24)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.CORSFilter.doFilter(CORSFilter.java:24)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.Security.doFilter(Security.java:17)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+21:05:51.826 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+21:05:52.532 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+21:05:52.535 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+21:05:52.587 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+21:05:52.588 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Order - Init method invoked
+21:05:52.622 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Order - Connection initialized: 1377449855, URL=jdbc:mysql://localhost:3306/flower?createDatabaseIfNotExist=true, MySQL Connector/J
+21:07:14.433 [http-nio-8080-exec-5] DEBUG com.example.flowers.controller.Order - Received order: OrderDTO(orderId=ORD-677369, orderDate=2024-08-08, customerId=9f484861-99a1-4e40-8e6a-9896fd9c793e, total=1000.0, discount=10.0, subTotal=900.0, cash=1000.0, balance=100.0, items=[ItemDTO(code=062af99b-8664-49b5-b8f9-7be16685313c, description=Pink rose, price=500.0, qty=2)])
+21:07:14.520 [http-nio-8080-exec-5] ERROR com.example.flowers.controller.Order - SQL Exception occurred while placing order
+com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'customer_id' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:137)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:137)
+	at com.example.flowers.controller.Order.doPost(Order.java:188)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.Security.doFilter(Security.java:17)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.CORSFilter.doFilter(CORSFilter.java:24)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.CORSFilter.doFilter(CORSFilter.java:24)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.Security.doFilter(Security.java:17)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+21:14:19.328 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+21:14:19.941 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+21:14:19.945 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+21:14:19.970 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+21:14:19.972 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Order - Init method invoked
+21:14:19.997 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Order - Connection initialized: 632688454, URL=jdbc:mysql://localhost:3306/flower?createDatabaseIfNotExist=true, MySQL Connector/J
+21:15:06.970 [http-nio-8080-exec-5] DEBUG com.example.flowers.controller.Order - Received order: OrderDTO(orderId=ORD-438471, orderDate=2024-08-08, customerId=5fa109aa-8d72-43d3-84a8-e38e1a8644ef, total=1000.0, discount=10.0, subTotal=900.0, cash=1000.0, balance=100.0, items=[ItemDTO(code=062af99b-8664-49b5-b8f9-7be16685313c, description=Pink rose, price=500.0, qty=2)])
+21:18:08.517 [http-nio-8080-exec-7] DEBUG com.example.flowers.controller.Order - Received order: OrderDTO(orderId=ORD-265744, orderDate=2024-08-08, customerId=Select Customer ID, total=5000.0, discount=50.0, subTotal=2500.0, cash=15000.0, balance=12500.0, items=[ItemDTO(code=062af99b-8664-49b5-b8f9-7be16685313c, description=Pink rose, price=500.0, qty=2), ItemDTO(code=2448505d-0ddc-4c0e-bd5c-49adfd0f565b, description=Rose, price=5000.0, qty=1)])
+21:18:08.517 [http-nio-8080-exec-7] ERROR com.example.flowers.controller.Order - Customer ID Select Customer ID not found
+21:20:20.666 [http-nio-8080-exec-6] DEBUG com.example.flowers.controller.Order - Received order: OrderDTO(orderId=ORD-126826, orderDate=2024-08-08, customerId=e380f564-9223-4bbb-8e52-4586bd772037, total=900.0, discount=5.0, subTotal=855.0, cash=1000.0, balance=145.0, items=[ItemDTO(code=7935545e-c44c-42ab-8872-9b018c0b6565, description=Yellow Rose, price=450.0, qty=2)])
+21:36:50.611 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+21:36:51.349 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+21:36:51.352 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+21:36:51.376 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+21:36:51.377 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Order - Init method invoked
+21:36:51.402 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Order - Connection initialized: 1231954305, URL=jdbc:mysql://localhost:3306/flower?createDatabaseIfNotExist=true, MySQL Connector/J
+21:37:41.102 [http-nio-8080-exec-9] DEBUG com.example.flowers.controller.Order - Received order: OrderDTO(orderId=ORD-995344, orderDate=2024-08-08, customerId=5fa109aa-8d72-43d3-84a8-e38e1a8644ef, total=900.0, discount=2.0, subTotal=882.0, cash=1000.0, balance=118.0, items=[ItemDTO(code=7935545e-c44c-42ab-8872-9b018c0b6565, description=Yellow Rose, price=450.0, qty=2)])
+21:37:41.238 [http-nio-8080-exec-9] ERROR com.example.flowers.controller.Order - SQL Exception occurred while placing order
+java.sql.SQLException: Parameter index out of range (2 > number of parameters, which is 1).
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:98)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:90)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:64)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.checkBounds(ClientPreparedStatement.java:1345)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.getCoreParameterIndex(ClientPreparedStatement.java:1358)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.setString(ClientPreparedStatement.java:1714)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:638)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:638)
+	at com.example.flowers.controller.Order.doPost(Order.java:224)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.Security.doFilter(Security.java:17)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.CORSFilter.doFilter(CORSFilter.java:24)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.CORSFilter.doFilter(CORSFilter.java:24)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.flowers.filter.Security.doFilter(Security.java:17)
+	at jakarta.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+21:42:47.446 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+21:42:48.234 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+21:42:48.238 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+21:42:48.264 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+21:42:48.265 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Order - Init method invoked
+21:42:48.293 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Order - Connection initialized: 529487272, URL=jdbc:mysql://localhost:3306/flower?createDatabaseIfNotExist=true, MySQL Connector/J
+21:43:58.271 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+21:43:58.947 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+21:43:58.952 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+21:43:58.993 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+21:43:58.994 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Order - Init method invoked
+21:43:59.039 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Order - Connection initialized: 166721535, URL=jdbc:mysql://localhost:3306/flower?createDatabaseIfNotExist=true, MySQL Connector/J
+21:44:20.365 [http-nio-8080-exec-5] DEBUG com.example.flowers.controller.Order - Received order: OrderDTO(orderId=ORD-673223, orderDate=2024-08-08, customerId=9f484861-99a1-4e40-8e6a-9896fd9c793e, total=2500.0, discount=2.0, subTotal=2450.0, cash=2500.0, balance=50.0, items=[ItemDTO(code=062af99b-8664-49b5-b8f9-7be16685313c, description=Pink rose, price=500.0, qty=5)])
+21:59:24.678 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Item - Init method invoked
+21:59:25.364 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Item - Connection initialized
+21:59:25.368 [RMI TCP Connection(2)-127.0.0.1] INFO  c.e.flowers.controller.Customer - Init method invoked
+21:59:25.396 [RMI TCP Connection(2)-127.0.0.1] DEBUG c.e.flowers.controller.Customer - Connection initialized
+21:59:25.397 [RMI TCP Connection(2)-127.0.0.1] INFO  com.example.flowers.controller.Order - Init method invoked
+21:59:25.420 [RMI TCP Connection(2)-127.0.0.1] DEBUG com.example.flowers.controller.Order - Connection initialized: 851012611, URL=jdbc:mysql://localhost:3306/flower?createDatabaseIfNotExist=true, MySQL Connector/J
+22:00:03.156 [http-nio-8080-exec-4] DEBUG com.example.flowers.controller.Order - Received order: OrderDTO(orderId=ORD-206872, orderDate=2024-08-08, customerId=5fa109aa-8d72-43d3-84a8-e38e1a8644ef, total=1000.0, discount=10.0, subTotal=900.0, cash=1000.0, balance=100.0, items=[ItemDTO(code=062af99b-8664-49b5-b8f9-7be16685313c, description=Pink rose, price=500.0, qty=2)])
+22:01:37.646 [http-nio-8080-exec-7] DEBUG com.example.flowers.controller.Order - Received order: OrderDTO(orderId=ORD-445819, orderDate=2024-08-08, customerId=5fa109aa-8d72-43d3-84a8-e38e1a8644ef, total=900.0, discount=2.0, subTotal=882.0, cash=1000.0, balance=118.0, items=[ItemDTO(code=7935545e-c44c-42ab-8872-9b018c0b6565, description=Yellow Rose, price=450.0, qty=2)])
