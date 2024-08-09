@@ -21,7 +21,8 @@ public class OrderDAOIMPL implements OrderDAO {
 
     @Override
     public void saveOrder(OrderDTO order) throws SQLException {
-        String insertOrderSQL = "INSERT INTO orders (order_id, order_date, customer_id, total, discount, subtotal, cash, balance) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+        String insertOrderSQL = "INSERT INTO orders (order_id, order_date, customer_id, total," +
+                " discount, subtotal, cash, balance) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
         try (Connection connection = dataSource.getConnection();
              PreparedStatement orderStmt = connection.prepareStatement(insertOrderSQL)) {
             orderStmt.setString(1, order.getOrderId());
@@ -38,7 +39,8 @@ public class OrderDAOIMPL implements OrderDAO {
 
     @Override
     public void saveOrderItem(String orderId, ItemDTO item) throws SQLException {
-        String insertOrderItemSQL = "INSERT INTO order_items (order_id, item_code, quantity, price) VALUES (?, ?, ?, ?)";
+        String insertOrderItemSQL = "INSERT INTO order_items (order_id, item_code, quantity," +
+                " price) VALUES (?, ?, ?, ?)";
         try (Connection connection = dataSource.getConnection();
              PreparedStatement orderItemStmt = connection.prepareStatement(insertOrderItemSQL)) {
             orderItemStmt.setString(1, orderId);
